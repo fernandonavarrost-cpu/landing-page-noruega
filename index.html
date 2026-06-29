@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel&U</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<header>
+    <h1>Quer conhecer a Noruega? Vá com a Travel&U!</h1>
+    <nav aria-label="Navegação principal">
+        <button class="btn-menu" aria-controls="menu-principal" aria-expanded="false" aria-label="Abrir menu">
+            ☰
+        </button>
+        <ul id="menu-principal" class="menu-principal">
+            <li><a href="#conheca">Conheça a Noruega</a></li>
+            <li><a href="#pacotes">Pacotes</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <section id="conheca">
+    <h2>Conheça a Noruega</h2>
+    <div class="div-azul">
+        <div class="conheca-banner">
+            <img class="bandeira" src="https://img.freepik.com/vetores-gratis/ilustracao-de-bandeira-noruega_53876-27115.jpg?semt=ais_hybrid&w=740&q=80" alt="Bandeira da Noruega. Fundo vermelho com uma cruz azul escura, contornada por uma borda branca." loading="lazy" width="320" height="200">
+            <div class="banner-text">
+                <h3>Após 28 anos de ausência, a Noruega está de volta à Copa do Mundo da FIFA.</h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="div-azul">
+    <h2>Descubra a beleza natural e a cultura rica da Noruega com a Travel&U.</h2>
+    <figure>
+        <img src="img/fiorde.png" alt="Paisagem da Noruega. Lago azul turquesa, rodeado de montanhas verdes. Um barco pequeno flutua no lago." loading="lazy" width="900" height="400">
+        <figcaption class="legenda">Fiorde de Geiranger, Noruega.</figcaption>
+    </figure>
+    <p>O local da foto é reconhecido mundialmente por sua beleza natural e foi designado Patrimônio Mundial da UNESCO.</p>
+    <p>A cor turquesa única da água é causada por partículas finas de rocha trazidas pelo degelo das geleiras que alimentam o fiorde.</p>
+    </div>
+    
+    <div class="div-azul">
+    <h2>Explore as paisagens deslumbrantes, as cidades vibrantes e a história fascinante da Noruega conosco.</h2>
+    <figure>
+        <img src="img/vila.png" alt="Vila a beira-mar, com casas vermelhas e montanhas ao fundo." loading="lazy" width="900" height="400">
+        <figcaption class="legenda">Vila de pescadores de Hamnøy, localizada nas Ilhas Lofoten, na Noruega.</figcaption>
+    </figure>
+    <p>As famosas cabanas vermelhas (mostradas na imagem), conhecidas como rorbuer, eram tradicionalmente usadas para abrigar pescadores e hoje servem como acomodações turísticas.</p>
+    </div>
+    
+    </section>
+    <section id="pacotes">
+        <h2>Pacotes de Viagem</h2>
+        <p style="text-align: center;">Oferecemos pacotes personalizados para atender às suas necessidades e desejos de viagem.</p>
+        <div class="linha-secao">
+            <div class="container-cartoes">
+                <div class="cartao">
+                    <h2>Pacote A</h2>
+                    <p>7 dias explorando os fiordes e as cidades costeiras.</p>
+                    <img src="img/pacA.jpg" alt="Barco navegando por um fiorde, cercado por montanhas verdes e céu azul claro." loading="lazy" width="400" height="250">
+                </div>
+                <div class="cartao">
+                    <h2>Pacote B</h2>
+                    <p>10 dias combinando cultura, história e natureza.</p>
+                    <img src="img/pacB.jpg" alt="Vista panorâmica de uma cidade norueguesa, com casas coloridas, um porto movimentado e montanhas ao fundo." loading="lazy" width="400" height="250">
+                </div>
+                <div class="cartao">
+                    <h2>Pacote C</h2>
+                    <p>14 dias com foco em atividades ao ar livre e aventura.</p>
+                    <img src="img/pacC.jpg" alt="Grupo de pessoas fazendo trilha em uma montanha, com vista para um fiorde e um céu nublado." loading="lazy" width="400" height="250">
+                </div>
+                <div class="cartao">
+                    <h2>Pacote D</h2>
+                    <p>21 dias explorando as trilhas e as paisagens inesquecíveis da Noruega.</p>
+                    <img src="img/pacD.jpg" alt="Grupo de pessoas fazendo trilha em uma montanha, com vista para um fiorde e um céu nublado." loading="lazy" width="400" height="250">
+                </div>
+            </div>
+            <aside class="painel-formulario" id="contato">
+                <h3>Entre em contato</h3>
+                    <form id="contato-form">
+                        <label for="nome">Nome:</label>
+                        <input type="text" id="nome" name="nome" placeholder="Seu nome completo">
+
+                        <label for="numero">Número de telefone:</label>
+                        <input type="tel" id="numero" name="numero" placeholder="(00) 90000-0000">
+
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" placeholder="seu@exemplo.com">
+
+                        <div>
+                            <input type="checkbox" id="newsletter" name="newsletter" value="sim">
+                            <label for="newsletter">Quero receber novidades e promoções.</label>
+                        </div>
+
+                        <label for="pacote">Escolha o pacote desejado:</label>
+                        <select id="pacote" name="pacote">
+                            <option value="pacote-a">Pacote A</option>
+                            <option value="pacote-b">Pacote B</option>
+                            <option value="pacote-c">Pacote C</option>
+                            <option value="pacote-d">Pacote D</option>
+                        </select>
+
+                        <button type="submit" aria-label="Enviar formulário de contato">Enviar</button>
+                    </form>
+            </aside>
+        </div>
+    </section>
+</main>
+<footer>
+    <p>&copy; 2024 Travel&U. Todos os direitos reservados.</p>  
+</footer>
+<script>
+// Menu toggle para dispositivos móveis
+const btnMenu = document.querySelector('.btn-menu');
+const menu = document.getElementById('menu-principal');
+btnMenu && btnMenu.addEventListener('click', () => {
+    const expanded = btnMenu.getAttribute('aria-expanded') === 'true';
+    btnMenu.setAttribute('aria-expanded', String(!expanded));
+    menu.classList.toggle('menu-aberto');
+});
+</script>
+</body>
+</html>
